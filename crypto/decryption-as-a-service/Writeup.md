@@ -19,7 +19,15 @@ if isqrt(N) < c < N:
                 continue
             print(hex(pow(c, d, N))[2:])
 ```
-It not allow to send the ciphertext which have the condition that: N < $c^2$
+It not allow to send the ciphertext which have the condition that: $N$ < $c^2$ < $N^2$
+to avoid this attack: 
+Assume that we have the cryptography system like above, but it only has this condition:
+```python
+if c == encrypted_flag or c == (N - encrypted_flag):
+```
+Then we can send 2 message such that:
+$c_1 \equiv a \pmod{b}$
+
 
 *This text will be italic*
 _This will also be italic_
