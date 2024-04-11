@@ -1,14 +1,10 @@
-# eventCTF2020 - challenge name
-
+# AmateursCTF 2024 - less-suspicious-rsa
 - Write-Up Author: whoami \[[whoami](the link to me)\]
 
 - Flag: place your flag here
 
 ## Challenge Description:
-
->crypto/less-suspicious-rsa
 >I need help factoring this modulus, it looks less suspicious, but I can't factor using any conventional methods.
-
 ## Write up  
 
 ### Look at this code:
@@ -25,8 +21,10 @@ Assume that we have the cryptography system like above, but it only has this con
 ```python
 if c == encrypted_flag or c == (N - encrypted_flag):
 ```
-Then we can send 2 message such that \n:
-$c_1 \equiv a \pmod{b}$
+Then we can send 2 message such that: \
+$c_1 \equiv m1 \pmod{N}$ \
+$c_2 \equiv m2 \pmod{N}$ \
+
 
 
 *This text will be italic*
