@@ -19,7 +19,7 @@ if isqrt(N) < c < N:
                 continue
             print(hex(pow(c, d, N))[2:])
 ```
-It not allow to send the ciphertext which have the condition that: N < $_c^2$
+It not allow to send the ciphertext which have the condition that: N < $c^2$
 
 *This text will be italic*
 _This will also be italic_
