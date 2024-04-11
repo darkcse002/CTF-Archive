@@ -45,8 +45,11 @@ We got: $k\times N = gcd(k_x\times N, k_y\times N)
 In our case, we can know that N is 2047 bits cause the getPrime(1024) function for p,q
 then we can check bit of N and divide it by the prime number by bruteforce until we got 2047 bit, it will be the N value
 ### Get Flag:
-The same idea, we can continu with:
-$p1 \equiv msg*(1/2)^d \pmode{N} $
-$p2 \equiv msg*(1/4)^d \pmode{N} $
-i choose this cause when i checked the encrypted flag, it get 2046 bits, when we multiply it k times which k >= 3, i can be larger than N, then i choose k = 2 and run script many times to get the case that encrypted_flag*2 < N
-
+The same idea, we can continue with:
+$enc\times \frac{1}{2} = p_1 \equiv msg\times \frac{1}{2}^d \pmod{N} $
+$enc\times 2 = p_2 \equiv msg\times (2)^d \pmod{N} $
+i choose this cause when i checked the encrypted flag, it get 2046 bits, when we multiply enc by k times which k >= 3, it can be larger than N, then i choose k = 2 and run script many times to get the case that encrypted_flag*2 < N.
+Then we have:
+$msg**2 \equiv p_1\timesp_2 \pmod{N}$
+We can check if it's a square root, we can easily get msg by ```python msg = iroot(msg,2)[0]```, if not we can use tonelli shanks algorithm to recover msg.
+In this case the first one is True
