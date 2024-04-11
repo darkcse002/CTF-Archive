@@ -39,6 +39,6 @@ We can see that the nextPrime function return this value: $q = p + (-p % n) + k\
 Let $p = k\times n + p%n$\, so:\
 $q = k\times n + 1$\
 with n is factorial(90), we can check it's bit and got 459 bits, then k.bit_length() <= 512 - 459 = 53 (bits)
-This make me remember the Coppersmith theorem (https://en.wikipedia.org/wiki/Coppersmith_method) 
+This make me remember the [Coppersmith theorem](https://en.wikipedia.org/wiki/Coppersmith_method) 
 
 
