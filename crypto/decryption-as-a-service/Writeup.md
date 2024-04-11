@@ -12,7 +12,7 @@
 ## Write up  
 
 ### Look at this code:
-``
+``python
 if isqrt(N) < c < N:
             if c == encrypted_flag or c == (N - encrypted_flag):
                 print("sorry, that looks like the flag")
