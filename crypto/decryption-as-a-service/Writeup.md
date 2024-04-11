@@ -15,7 +15,8 @@ if isqrt(N) < c < N:
                 continue
             print(hex(pow(c, d, N))[2:])
 ```
-This cryptosystem always give us the value of $c^d \equiv m \pmod{N}$
+This cryptosystem always give us the value of m when c is satisfied the condition above: \
+$c^d \equiv m \pmod{N}$, 
 
 
 
