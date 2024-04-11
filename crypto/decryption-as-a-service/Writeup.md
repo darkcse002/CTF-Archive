@@ -19,7 +19,8 @@ This cryptosystem always give us the value of m when c is satisfied the conditio
 $c^d \equiv m \pmod{N}$, 
 It makes us remember the attack that if we have N, we can easy find the message: \
 $enc = msg^e \pmod{N}$ \
-if we have $2*enc = (2*msg)^e = 2^{e}msg^e \pmod{N}$
+if we have: 
+$2*enc = (2*msg)^e = 2^e.msg^e \pmod{N} $
 
 
 
