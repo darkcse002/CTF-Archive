@@ -53,4 +53,4 @@ i choose this cause when i checked the encrypted flag, it get 2046 bits, when we
 Then we have:\
 $msg^2 \equiv p_1\times p_2 \pmod{N}$ \
 We can check if it's a square root, we can easily get msg by ```python msg = iroot(msg,2)[0]```, if not we can use tonelli shanks algorithm to recover msg.
-In this case the first one ```python is True ```
+In this case the first one ``` is True ```
