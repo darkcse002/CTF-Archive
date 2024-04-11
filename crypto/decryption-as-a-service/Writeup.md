@@ -15,15 +15,7 @@ if isqrt(N) < c < N:
                 continue
             print(hex(pow(c, d, N))[2:])
 ```
-It not allow to send the ciphertext which have the condition that: $N$ < $c^2$ < $N^2$
-to avoid this attack: 
-Assume that we have the cryptography system like above, but it only has this condition:
-```python
-if c == encrypted_flag or c == (N - encrypted_flag):
-```
-Then we can send 2 message such that: \
-$c_1 \equiv m1 \pmod{N}$ \
-$c_2 \equiv m2 \pmod{N}$ \
+This cryptosystem always give us the value of $c^d \equiv m \pmod{N}$
 
 
 
