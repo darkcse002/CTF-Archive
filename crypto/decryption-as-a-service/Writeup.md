@@ -25,7 +25,7 @@ Assume that we have the cryptography system like above, but it only has this con
 ```python
 if c == encrypted_flag or c == (N - encrypted_flag):
 ```
-Then we can send 2 message such that:
+Then we can send 2 message such that \n:
 $c_1 \equiv a \pmod{b}$
 
 
