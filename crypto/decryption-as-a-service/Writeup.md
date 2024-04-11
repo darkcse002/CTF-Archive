@@ -19,8 +19,8 @@ This cryptosystem always give us the value of m when c is satisfied the conditio
 $c^d \equiv m \pmod{N}$, 
 It makes us remember the attack that if we have N, we can easy recover flag by mutiply encrypted by k number and send k to that cryptosystem:\
 $k^d \equiv m_k \pmod{N}$\
-and we have: $(k\times enc)^d = (k\times flag^e)^d \equiv  k^d\times flag \equiv m_k\times flag \pmod{N}$ 
-then $flag = m_k^{-1} \times \pmod{N}$
+and we have: $ value = (k\times enc)^d = (k\times flag^e)^d \equiv  k^d\times flag \equiv m_k\times flag \pmod{N}$ 
+then $flag = m_k^{-1} \times value \pmod{N}$
 
 
 *This text will be italic*
