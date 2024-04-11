@@ -17,11 +17,9 @@ if isqrt(N) < c < N:
 ```
 This cryptosystem always give us the value of m when c is satisfied the condition above: \
 $c^d \equiv m \pmod{N}$, 
-It makes us remember the attack that if we have N, we can easy find the message: \
-$enc = msg^e \pmod{N}$ \
-if we have: 
-$2\times enc = (2\times msg)^e = 2^e\times msg^e \pmod{N} $
-
+It makes us remember the attack that if we have N, we can easy recover flag by mutiply encrypted by k number and send k to that cryptosystem:\
+$k^d \equiv m_k \pmod{N}$\
+and we have: $(k\times enc)^d = (k\times flag^e)^d \equiv  k^d\times flag \pmod{N}$ 
 
 
 *This text will be italic*
