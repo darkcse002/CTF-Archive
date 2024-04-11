@@ -29,7 +29,7 @@ With $c^d \equiv m \pmod{N}$, we can rewrite it in this form:\
 $c^d = m + k\times N$ \
 $=> c^d - m = k\times N$ \
 Then the idea that we'll find N by get greatest common divisor of each $c^d - m$ we create.\
-Choose some specific c like this we can solve it:
-$c1=a,c2=a\times 2, c3 = \frac{a}{2}$ \\
-$c4=b,c2=b\times 2, c3 = \frac{b}{2}$ \\
+Choose some specific c like this we can solve it: \
+$c1=a,c2=a\times 2, c3 = \frac{a}{2}$ \
+$c4=b,c2=b\times 2, c3 = \frac{b}{2}$ \
 
