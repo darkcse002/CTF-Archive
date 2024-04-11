@@ -38,4 +38,4 @@ $c_1 \equiv a^d \pmod{N} => c_1 = a^d + k_1\times N$\
 $c_2 \equiv {a\times 2}^d \equiv 2^d \times a \pmod{N} => c_2 = 2^d \times a^d + k_2\times N$\
 $c_3 \equiv (\frac{a}{2})^d \equiv (\frac{1}{2})^d \times a  \pmod{N}=> (\frac{1}{2})^d + k_3\times N$\
 Can **easily** to see that: \
-$\frac{(c_2-k_2\times N)^2}{(a^d)^2} =\frac{(c_3-k_2\times N)}{a^d}$
+# $\frac{(c_2-k_2\times N)^2}{(a^d)^2} =\frac{(c_3-k_2\times N)}{a^d}$
