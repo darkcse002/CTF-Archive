@@ -40,7 +40,7 @@ $c_3 \equiv (\frac{a}{2})^d \equiv (\frac{1}{2})^d \times a  \pmod{N}=> c_3 =  (
 Can easily to see that:  \
 $c_1^2 - c_2*c_3 = k_x\times N$ \
 As the same we have: \
-$c_4^2 - c_5\times c_6 = k_y\times N $ \
+$c_4^2 - c_5\times c_6 = k_y\times N$ \
 We got:\ 
 $k\times N = gcd(k_x\times N, k_y\times N)$\
 In our case, we can know that N is 2047 bits cause the getPrime(1024) function for p,q
