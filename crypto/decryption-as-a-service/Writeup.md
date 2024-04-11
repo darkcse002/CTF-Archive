@@ -15,8 +15,7 @@ if isqrt(N) < c < N:
                 continue
             print(hex(pow(c, d, N))[2:])
 ```
-This cryptosystem always give us the value of m when c is satisfied the condition above: \
-$c^d \equiv m \pmod{N}$, 
+This cryptosystem always give us the value $c^d \equiv m \pmod{N}$ when c is satisfied the condition above: \
 It makes us remember the attack that if we have N, we can easy recover flag by mutiply encrypted by k number and send k to that cryptosystem:\
 $k^d \equiv m_k \pmod{N}$\
 and we have:\
