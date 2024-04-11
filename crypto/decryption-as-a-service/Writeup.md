@@ -12,13 +12,13 @@
 ## Write up  
 
 ### Look at this code:
-``python
+```python
 if isqrt(N) < c < N:
             if c == encrypted_flag or c == (N - encrypted_flag):
                 print("sorry, that looks like the flag")
                 continue
             print(hex(pow(c, d, N))[2:])
-``
+```
 
 
 *This text will be italic*
