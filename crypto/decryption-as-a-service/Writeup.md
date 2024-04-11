@@ -1,10 +1,10 @@
-# AmateursCTF 2024 - less-suspicious-rsa
+# AmateursCTF 2024 - decryption-as-a-service
 - Write-Up Author: Dark
 
 - Flag: amateursCTF{...}
 
 ## Challenge Description:
->I need help factoring this modulus, it looks less suspicious, but I can't factor using any conventional methods.
+>Hi, please do not decrypt the flag. Or anything else, for that matter...
 ## Write up  
 
 ### Look at this code:
