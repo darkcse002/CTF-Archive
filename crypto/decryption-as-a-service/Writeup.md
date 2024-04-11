@@ -20,7 +20,7 @@ $c^d \equiv m \pmod{N}$,
 It makes us remember the attack that if we have N, we can easy find the message: \
 $enc = msg^e \pmod{N}$ \
 if we have: 
-$2*enc = (2*msg)^e = 2^e.msg^e \pmod{N} $
+$2\times enc = (2\times msg)^e = 2^e\times msg^e \pmod{N} $
 
 
 
