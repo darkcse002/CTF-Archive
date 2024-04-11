@@ -38,7 +38,7 @@ print(N, e, c)
 We can see that the nextPrime function return this value: $q = p + (-p % n) + k\times n + 1$ \
 Let $p = k\times n + p%n$\, so:\
 $q = k\times n + 1$\
-with n is factorial(90), we can check it's bit and got 459 bits, then k.bit_length() <= 512 - 459 = 53 (bits).\\
+with n is factorial(90), we can check it's bit and got 459 bits, then k.bit_length() <= 512 - 459 = 53 (bits).\
 This take me to the topic [Coppersmith theorem](https://crypto.stackexchange.com/questions/5644/attacks-on-the-rsa-cryptosystem) that if we have the the atleast half of p bits $\frac{n}{4}$ bits (in this case is 256 bits), we can efficiently factorize N.
 And yes, sage math have function to solve the function $F(x) = x + a [N]$. \
 We simplify convert $q = k\times n + 1$ by this way:
