@@ -31,5 +31,13 @@ $=> c^d - m = k\times N$ \
 Then the idea that we'll find N by get greatest common divisor of each $c^d - m$ we create.\
 Choose some specific c like this we can solve it: \
 $c1=a,c2=a\times 2, c3 = \frac{a}{2}$ \
-$c4=b,c2=b\times 2, c3 = \frac{b}{2}$ \
+$c4=b,c5=b\times 2, c6 = \frac{b}{2}$ \
+which a,b satisfied conditon ```python isqrt(N) < c < N:```.
+we got:
+$c1 \equiv a^d \pmod{N}$\
+$c2 \equiv {a\times 2}^d \pmod{N}$\
+$c3 \equiv (\frac{a}{2})^d \pmod{N}$\
+$c4 \equiv b^d \pmod{N}$\
+$c5 \equiv {b\times 2}^d \pmod{N}$\
+$c6 \equiv (\frac{b}{2})^d \pmod{N}$\
 
