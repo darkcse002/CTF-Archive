@@ -17,6 +17,8 @@ if isqrt(N) < c < N:
 ```
 This cryptosystem always give us the value of m when c is satisfied the condition above: \
 $c^d \equiv m \pmod{N}$, 
+It makes us remember the attack that if we have N, we can easy find the message:
+$enc_flag = msg^e [N]$\ 
 
 
 
