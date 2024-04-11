@@ -1,7 +1,7 @@
 # AmateursCTF 2024 - less-suspicious-rsa
-- Write-Up Author: whoami \[[whoami](the link to me)\]
+- Write-Up Author: Dark
 
-- Flag: place your flag here
+- Flag: amateursCTF{...}
 
 ## Challenge Description:
 >I need help factoring this modulus, it looks less suspicious, but I can't factor using any conventional methods.
