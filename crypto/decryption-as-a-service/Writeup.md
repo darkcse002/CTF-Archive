@@ -30,12 +30,12 @@ $c^d = m + k\times N$ \
 $=> c^d - m = k\times N$ \
 Then the idea that we'll find N by get greatest common divisor by the relation of each $c^d - m$ we create.\
 Choose some specific c like this we can solve it: \
-$c1=a,c2=a\times 2, c3 = \frac{a}{2}$ \
-$c4=b,c5=b\times 2, c6 = \frac{b}{2}$ \
+$c_1=a,c2_=a\times 2, c_3 = \frac{a}{2}$ \
+$c_4=b,c_5=b\times 2, c_6 = \frac{b}{2}$ \
 which a,b satisfied conditon ```python isqrt(N) < c < N:```.
 we have: \
 $c_1 \equiv a^d \pmod{N} => c_1 = a^d + k_1\times N$\
 $c_2 \equiv {a\times 2}^d \equiv 2^d \times a \pmod{N} => c_2 = 2^d \times a^d + k_2\times N$\
 $c_3 \equiv (\frac{a}{2})^d \equiv (\frac{1}{2})^d \times a  \pmod{N}=> c_3 =  (\frac{1}{2})^d\times a^d + k_3\times N$\
 Can easily to see that: 
-### $\frac{(c_2-k_2\times N)^2}{(a^d)^2} =\frac{(c_3-k_2\times N)}{a^d}$
+## $\frac{(c_3-k_3\times N)^2}{(a^d)^2} =\frac{(c_2-k_2\times N)}{a^d}$
