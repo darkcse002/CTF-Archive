@@ -38,6 +38,15 @@ $c_1 \equiv a^d \pmod{N} => c_1 = a^d + k_1\times N$\
 $c_2 \equiv {a\times 2}^d \equiv 2^d \times a \pmod{N} => c_2 = 2^d \times a^d + k_2\times N$\
 $c_3 \equiv (\frac{a}{2})^d \equiv (\frac{1}{2})^d \times a  \pmod{N}=> c_3 =  (\frac{1}{2})^d\times a^d + k_3\times N$\
 Can easily to see that:  \
-$c_1^2 - c_2*c_3 = k_x\times N$ \
+$c_1^2 - c_2*c_3 = k_x\times N$ 
 As the same we have: \
 $c_4^2 - c_5\times c_6 = k_y\times N  $
+We got: $k\times N = gcd(k_x\times N, k_y\times N)
+In our case, we can know that N is 2047 bits cause the getPrime(1024) function for p,q
+then we can check bit of N and divide it by the prime number by bruteforce until we got 2047 bit, it will be the N value
+### Get Flag:
+The same idea, we can continu with:
+$p1 \equiv msg*(1/2)^d \pmode{N} $
+$p2 \equiv msg*(1/4)^d \pmode{N} $
+i choose this cause when i checked the encrypted flag, it get 2046 bits, when we multiply it k times which k >= 3, i can be larger than N, then i choose k = 2 and run script many times to get the case that encrypted_flag*2 < N
+
