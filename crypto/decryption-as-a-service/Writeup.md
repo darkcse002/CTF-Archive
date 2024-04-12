@@ -44,7 +44,7 @@ $c_4^2 - c_5\times c_6 = k_y\times N$ \
 We got: 
 $k\times N = gcd(k_x\times N, k_y\times N)$\
 In our case, we can know that N is 2047 bits cause the getPrime(1024) function for p,q
-then we can check bit of N and divide it by the prime number by bruteforce until we got 2047 bit, it will be the N value
+then we can check bit of N and divide it by k = prime number by bruteforce until we got 2047 bit, it will be the N value
 ### Get Flag:
 The same idea, we can continue with: \
 $enc\times \frac{1}{2} = p_1 \equiv msg\times (\frac{1}{2})^d \pmod{N}$ \
