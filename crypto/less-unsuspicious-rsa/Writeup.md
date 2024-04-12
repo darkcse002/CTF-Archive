@@ -48,6 +48,6 @@ We can easily recover k by coppersmith method, with function small_root:\
 ``` k = f.small_roots(X=2^54,beta=0.2,epsilon=1/200) ``` \
 choose beta such that $x > N^beta$, and epsilon small enough to make searching solution efficently
 then we got k => q => p => easy to get phi and d to recover flag
-## References: https://hackmd.io/@nomorecaffeine/By_SVppIh
+### References for Coppersmith's attack: https://hackmd.io/@nomorecaffeine/By_SVppIh
 
 
