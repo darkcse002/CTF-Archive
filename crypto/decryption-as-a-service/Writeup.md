@@ -30,7 +30,7 @@ $c^d = m + k\times N$ \
 $=> c^d - m = k\times N$ \
 Then the idea that we'll find N by get greatest common divisor by the relation of each $c^d - m$ we create.\
 Choose some specific c like this we can solve it: \
-$c_1=a,c2_=a\times 2, c_3 = \frac{a}{2}$ \
+$c_1=a,c_2=a\times 2, c_3 = \frac{a}{2}$ \
 $c_4=b,c_5=b\times 2, c_6 = \frac{b}{2}$ \
 which a,b satisfied conditon ```python isqrt(N) < c < N:```.
 we have: \
